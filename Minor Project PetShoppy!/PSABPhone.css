@@ -1,0 +1,38 @@
+body {
+    width: 1500px;
+}
+
+.nav-cont {
+    flex-direction: column;
+    align-items: center;
+    width: 1525px;
+}
+
+.logo {
+    font-size: 2.8rem;
+}
+
+.item a {
+    padding: 0px 50px;
+    font-size: 2.8rem;
+}
+
+.container {}
+
+footer {
+    width: 1525px;
+    position: relative;
+    bottom: 0px;
+}
+
+.footer-c {
+    margin: 10px 23px;
+}
+
+.hh1 {
+    font-size: 2.3rem;
+}
+
+.lf {
+    font-size: 2rem;
+}

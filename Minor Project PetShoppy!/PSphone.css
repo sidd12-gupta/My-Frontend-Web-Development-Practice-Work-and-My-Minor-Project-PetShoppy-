@@ -1,0 +1,179 @@
+body {
+    width: 1525px;
+}
+
+.nav-cont {
+    flex-direction: column;
+    align-items: center;
+    width: 1535px;
+}
+
+.logo {
+    font-size: 2.8rem;
+}
+
+.item a {
+    padding: 0px 50px;
+    font-size: 2.8rem;
+}
+
+.container h1 {
+    padding: 66px 31px;
+}
+
+.text1 {
+    margin-top: 56px;
+    margin-left: 108px;
+    width: 78rem;
+}
+
+.image-container {
+    width: 997px;
+    margin-top: 1px;
+    flex-wrap: wrap;
+    margin-left: 281px;
+}
+
+.imgg {
+    margin: 42px 2px;
+    width: 32rem;
+}
+
+.img1 {
+    height: 25rem;
+    width: 26rem;
+}
+
+.content {
+    font-size: 3.5rem;
+    width: 465px;
+}
+
+.price {
+    font-size: 2.5rem;
+}
+
+#img1-2 {
+    width: 416px;
+}
+
+#img1-4 {
+    width: 416px;
+}
+
+#img1-5 {
+    width: 416px;
+}
+
+.btn {
+    width: 281px;
+    height: 113px;
+    margin-top: 63px;
+    margin-Left: 96px;
+}
+
+.btn-cont {
+    font-size: 2rem;
+}
+
+.brand-container {
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 201px;
+    position: relative;
+    left: 197px;
+}
+
+.brand {
+    width: 33rem;
+    margin-top: 85px;
+}
+
+.coupon-container {
+    flex-direction: column;
+    width: 1500px;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    padding: 1px 85px;
+}
+
+.coupon {
+    width: 1193px;
+    height: 200px;
+}
+
+.promo-code {
+    font-size: 2.6rem;
+}
+
+.disc-det1 {
+    font-size: 2.6rem;
+}
+
+.off-det1 {
+    font-size: 2.6rem;
+}
+
+.add-dets {
+    font-size: 2rem;
+}
+
+.btn-1 {
+    width: 225px;
+    font-size: 2.6rem;
+}
+
+.sub-bv {
+    width: 665px;
+    position: relative;
+    top: 1rem;
+    left: 26rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1px 36px;
+}
+
+.brand-value {
+    padding: 40px 92px;
+}
+
+.pict {
+    width: 100px;
+}
+
+.bv-pic {
+    width: 490px;
+}
+
+#pic-5 {
+    width: 496px;
+    height: 403px;
+}
+
+footer {
+    width: 1535px;
+}
+
+.footer-c {
+    margin: 10px 23px;
+}
+
+.hh1 {
+    font-size: 2.3rem;
+}
+
+.lf {
+    font-size: 2rem;
+}
+
+.scl {
+    width: 8rem;
+    height: 7rem;
+}
+
+.sidd-cont {
+    font-size: 2rem;
+}
