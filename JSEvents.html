@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Events</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        #btn {
+            padding: 34px;
+            background-color: red;
+            border: 2px solid black;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container">
+        <h1>This is my heading</h1>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo placeat ex atque quisquam voluptatem, deleniti suscipit repudiandae provident laboriosam numquam odio. Officiis reiciendis dicta, laborum dolor voluptatibus ad incidunt inventore commodi
+            hic debitis veritatis corrupti voluptatem omnis ratione doloremque fugit, magni amet maiores? At neque natus exercitationem, rem numquam asperiores voluptatibus officiis dolore nisi possimus amet pariatur maxime voluptate delectus ratione
+            illo. Qui vero repellat deserunt pariatur dignissimos explicabo eligendi, libero facere eius voluptates labore facilis aut sit consequatur recusandae nam accusantium dicta necessitatibus. Necessitatibus dicta illo officia? Suscipit voluptatum
+            esse, odit molestias reprehenderit libero minima iure blanditiis, accusamus a quam eos adipisci dolores aliquid commodi enim illo aliquam exercitationem doloremque. Cupiditate ipsa voluptas facere fugit harum repellat, nostrum ullam. Magnam
+            nihil itaque, illo maxime quibusdam voluptatibus est, incidunt, nostrum a praesentium veniam natus saepe tenetur possimus nam sed. Tempore id voluptas odit enim quae ipsam aut expedita magnam officia veniam, impedit est repellat rem sint totam
+            non accusantium minima quos. Fuga sequi nam quod non nemo odio repellendus quo hic vel maxime. Quibusdam quia nobis consequuntur ipsa est necessitatibus. Placeat ipsum non veniam, sequi veritatis, unde quo nulla laboriosam magnam corrupti
+            nihil adipisci maxime consectetur. Saepe iste qui odio expedita quibusdam adipisci ipsam dolores rem fugit quo totam veniam similique obcaecati vel praesentium reiciendis rerum sed provident, illum reprehenderit? Nihil tempora placeat omnis,
+            aspernatur dicta recusandae, iure porro, saepe reiciendis molestias praesentium.</p>
+
+        <button id="btn" onclick="togglehide()">Show/Hide</button>
+        <script>
+            let para = document.getElementById('p1');
+
+            p1.addEventListener('mouseover', function run() {
+                alert('Mouse inside');
+            });
+            p1.addEventListener('mouseout', function run() {
+                alert('Mouse now went outside');
+            });
+
+            function togglehide() {
+                let btn = document.getElementById('btn');
+                let para = document.getElementById('p1');
+                if (para.style.display != 'none') {
+                    para.style.display = 'none';
+                } else {
+                    para.style.display = 'block';
+                }
+            }
+        </script>
+    </div>
+    <script src="" async defer></script>
+</body>
+
+</html>

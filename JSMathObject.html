@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Math Object</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <h1>This is Math Object Tutorial</h1>
+    <script>
+        let m = Math;
+
+        console.log(m);
+
+        console.log("The value of Math.E is ", Math.E);
+        console.log("The value is ", Math.PI);
+        console.log("The value is ", Math.LN2);
+        console.log("The value is ", Math.SQRT1_2);
+        console.log("The value is ", Math.LOG2E);
+
+        let a = 34.64534;
+        let b = 89;
+
+        console.log("Value of a and b is ", a, b);
+        console.log("Value of a and b rounded is ", Math.round(a), Math.round(b));
+        console.log("Ceil value is ", Math.ceil(5.8));
+        console.log("Floor value is ", Math.floor(5.8));
+
+        console.log("value is ", Math.sin(Math.PI / 2));
+
+        console.log("Minimum value is ", Math.min(4, 5, 6));
+
+        let r = Math.random();
+
+        console.log("Random number is ", r);
+
+        let a1 = 50;
+        let b1 = 60;
+
+        let r50_60 = a1 + (b1 - a1) * Math.random();
+        console.log("Random Number is ", r50_60);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Box Shadow And Text Shadow</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .card {
+            padding: 23px 12px;
+            /*border: 2px solid red*/
+            ;
+            margin: 23px 12px;
+            background-color: burlywood;
+            /*box-shadow: 10px 13px green;*/
+            box-shadow: -7px -7px 10px green;
+        }
+        
+        .card h2 {
+            /*text-shadow: 3px 4px red;*/
+            text-shadow: -3px -7px 4px red;
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is C++ Course</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem dicta animi sint eveniet veritatis totam nemo perferendis illo vitae, repellendus alias quam assumenda tempore maxime nisi libero suscipit labore accusantium!</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is HTML Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet quisquam, obcaecati delectus, officiis alias dolore quia fugit vitae velit optio saepe hic tenetur ab harum quae maxime fugiat quos?</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>This is NodeJS Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aspernatur temporibus omnis molestiae, repudiandae, explicabo ea ducimus non ratione, accusantium ipsam amet quas officiis! Dolore ipsam quibusdam illo est atque?</p>
+        </div>
+    </div>
+    <script src="" async defer></script>
+</body>
+
+</html>

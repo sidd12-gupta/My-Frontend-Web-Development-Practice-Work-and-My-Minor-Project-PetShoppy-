@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h2>This is HTML forms tutorial</h2>
+        <form action = "backend.php">
+            <label for="name">Name</label>
+            <div>
+            <input type="text" name="MyName" id="name">
+            </div>
+            <br>
+            <div>
+                Role: <input type='text' name="MyRole">
+            </div>
+            <br>
+            <div>
+                Email: <input type='email' name="MyEmail">
+            </div>
+            <br>
+            <div>
+                Date: <input type='date' name='MyDate'>
+            </div>
+            <br>
+            <div>
+                Bonus: <input type='number' name="MyBonus">
+
+            </div>
+            <br>
+            <div>
+                Are you eligible?: <input type='checkbox' name='myEligibility'>
+            </div>
+            <br>
+            <div>
+                Gender: Male <input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Other<input type="radio" name="myGender">
+            </div>
+            <br>
+            <div>
+                Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="car">Car</label>
+                <select name="myCar" id="car">
+                    <option value="ind">Indica</option>
+                    <option value="swf" selected>Swift</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+            </div>
+
+        </form>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

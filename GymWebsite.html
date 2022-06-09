@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Siddharth's Gym</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        color: rgb(241, 142, 11);
+        margin: 0px;
+        padding: 0px;
+        background: url('https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726__340.jpg');
+
+    }
+
+    .left {
+        display: inline-block;
+        /*border: 4px solid red;*/
+        position: absolute;
+        left: 120px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 78px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .mid {
+
+        display: block;
+        /*border: 4px solid yellow;*/
+        margin: 20px auto;
+
+
+        width: 50%;
+
+    }
+
+    .right {
+        display: inline-block;
+        /*border: 4px solid green;*/
+        position: absolute;
+        padding: 15px;
+        top: 20px;
+        right: 34px;
+
+    }
+
+    .navbar {
+
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: rgb(212, 122, 5);
+        text-decoration: none;
+
+        padding: 20px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: hotpink;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        padding: 5px 15px;
+        /*border: 4px solid burlywood;*/
+        background-color: burlywood;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+
+    .btn:hover {
+        color: rgb(241, 142, 11);
+        background-color: aquamarine;
+    }
+
+    .container {
+        /*border: 4px solid burlywood;*/
+        margin: 73px 14px;
+        padding: 30px 56px;
+        width: 692px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .form-action input {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        /*border: 2px solid black;*/
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container button {
+
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+
+
+
+    }
+</style>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header class="bar">
+        <div class="left">
+
+            <img src="https://media.istockphoto.com/vectors/protein-powder-jar-icon-sport-nutrition-bodybuilding-food-supplement-vector-id1286858249?k=20&m=1286858249&s=612x612&w=0&h=JxQoUkFYiaRQTMe_DyZAApY67yNbmkrcuIKwdAeRIUc="
+                alt="">
+            <div>Siddharth's Website</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">More About Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join One of the Best Gyms in Jaipur.First Joining FLAT 60% OFF..!</h1>
+        <form action="noaction.php">
+            <div class="form-action">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-action">
+                <input type="text" placeholder="Enter your age">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <script src="" async defer></script>
+</body>
+
+</html>

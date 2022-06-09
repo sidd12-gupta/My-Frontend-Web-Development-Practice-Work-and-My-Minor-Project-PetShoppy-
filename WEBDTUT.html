@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript String Functions</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div id="sidd">
+        <h1>This is a heading..!!</h1>
+    </div>
+
+    <script>
+        var str = "This is Siddharth";
+        console.log(str);
+
+        var position = str.indexOf('Sid');
+        console.log(position);
+
+        var pos = str.lastIndexOf('Sid');
+        console.log(pos);
+
+        var slicey1 = str.slice(1, 7);
+        console.log(slicey1);
+
+        var strwithwhite = "      this contains    whitespaces";
+        console.log(strwithwhite.trim());
+
+        var uppsidd = str.toUpperCase();
+        console.log(uppsidd);
+
+        var lowsidd = str.toLowerCase();
+        console.log(lowsidd);
+
+        var charat = str.charAt(5);
+        console.log(charat);
+    </script>
+</body>
+
+</html>

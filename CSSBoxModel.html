@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS BOX MODEL</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            *{
+                box-sizing: border-box;
+                margin:0;
+                padding:0;
+            }
+            .container{
+                background-color: rgb(231, 60, 60);
+                border: 3px solid rgb(63, 39, 51);
+
+                padding: 32px 56px 6px 78px;
+                margin: 32px 56px 6px 78px;
+
+                border-radius: 23px;
+                width:533px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container">
+            <h3>This is my heading</h3>
+            <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, rem. Amet quibusdam odit sed tempore. Quos commodi nesciunt et laborum explicabo aliquid voluptatibus nisi provident? Aliquid natus odio excepturi quaerat?</p>
+        </div>
+        <div class="container">
+            <h3>This is my heading</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto qui, eos iure ad ab, eum in harum asperiores dolor itaque sapiente debitis praesentium quasi aut animi quas? Qui, fuga voluptates!</p>
+        </div>
+        <div class="container">
+            <h3>This is another lorem line</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam veritatis dignissimos dicta nihil ut provident magnam optio iure quia doloribus laboriosam quas, iusto nemo maiores. Id iste facilis voluptate.</p>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

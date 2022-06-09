@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Manipulating the DOM</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="main" class="container">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>More About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div id="nav" class="container">
+            <ul>
+                <li>Rome</li>
+                <li>Paris</li>
+                <li>New Delhi</li>
+                <li>Agra</li>
+                <li>Jaipur</li>
+            </ul>
+        </div>
+        
+        
+
+        <script>
+            let main=document.getElementById('main');
+            console.log(main);
+            
+
+            let containers=document.getElementsByClassName('container');
+            console.log(containers);
+
+            let sel=document.querySelector('.container');
+            console.log("Selector returns ",sel);
+
+            let val=document.querySelectorAll('#nav');
+            console.log("Selector returns ",sel);
+        </script>
+    </body>
+</html>

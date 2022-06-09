@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Media Queries Tutorial</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        .box {
+            font-size: 72px;
+            text-align: center;
+            background-color: red;
+            color: white;
+            display: none;
+        }
+
+        /* i just wrote this only screen because we dont want to support any other media type.!*/
+        @media only screen and (max-width:300px) {
+            #box-1 {
+                display: block;
+                background-color: cyan;
+            }
+        }
+
+        @media only screen and (max-width:500px) and (min-width:300px) {
+            #box-2 {
+                display: block;
+                background-color: blueviolet;
+            }
+        }
+
+        @media only screen and (min-width:500px) and (max-width:800px) {
+            #box-3 {
+                display: block;
+                color: black;
+                background-color: yellow;
+            }
+        }
+
+        @media only screen and (min-width:800px) {
+            #box-4 {
+                display: block;
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div class="box" id="box-1">Mai ek Iphone hoon</div>
+    <div class="box" id="box-2">Mai ek Tablet hoon</div>
+    <div class="box" id="box-3">Mai ek desktop computer hoon</div>
+    <div class="box" id="box-4">Mai ek widescreen computer hoon</div>
+    <script src="" async defer></script>
+</body>
+
+</html>
